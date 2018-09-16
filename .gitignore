@@ -1,0 +1,16 @@
+.DS_Store
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.pyc
+
+# Module directory
+.terraform/
+
+# Variable files
+*.tfvars
+*.cer
+
+ansible/site.retry
+
+modules/environment/upload_files
